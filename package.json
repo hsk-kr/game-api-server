@@ -1,0 +1,35 @@
+{
+  "name": "game-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "start": "ts-node dist/index.js",
+    "build": "rimraf ./dist && tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.7",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.7",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/node": "^14.6.0",
+    "@types/sequelize": "^4.28.9",
+    "ts-lint": "^4.5.1",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.58",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.4.2",
+    "rimraf": "^3.0.2",
+    "sequelize": "^6.3.4"
+  }
+}
